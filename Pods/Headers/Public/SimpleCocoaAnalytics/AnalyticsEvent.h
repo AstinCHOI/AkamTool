@@ -1,0 +1,1 @@
+../../../SimpleCocoaAnalytics/SimpleCocoaAnalytics/AnalyticsEvent.h

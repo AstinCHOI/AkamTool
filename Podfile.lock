@@ -1,0 +1,13 @@
+PODS:
+  - SimpleCocoaAnalytics (0.1.0)
+  - Sparkle (1.7.1)
+
+DEPENDENCIES:
+  - SimpleCocoaAnalytics (= 0.1.0)
+  - Sparkle (= 1.7.1)
+
+SPEC CHECKSUMS:
+  SimpleCocoaAnalytics: cc95e551884ec851002c668d15b71b8a73e92f56
+  Sparkle: f107eed24a7d41bcd510be49ebb640d176f06bb9
+
+COCOAPODS: 0.36.1

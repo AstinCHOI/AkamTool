@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8F146F8D165F91D2A72098E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B90D1712927311378836C2FF /* libPods.a */; };
+		DA302A571A7CDF05009921F4 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA302A561A7CDF05009921F4 /* ContentViewController.swift */; };
+		DA302A5C1A7CDF97009921F4 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA302A5B1A7CDF97009921F4 /* Label.swift */; };
+		DA302A5E1A7CDFC0009921F4 /* LabelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA302A5D1A7CDFC0009921F4 /* LabelButton.swift */; };
+		DA302A641A7CE45A009921F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA302A631A7CE45A009921F4 /* Images.xcassets */; };
+		DA302A671A7CEA39009921F4 /* Snappy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA302A601A7CE232009921F4 /* Snappy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA302A6C1A7CF535009921F4 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA302A6B1A7CF535009921F4 /* WindowController.swift */; };
+		DA302A6E1A7CF5B1009921F4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA302A6D1A7CF5B1009921F4 /* AppKit.framework */; };
+		DA302A701A7CF5BD009921F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA302A6F1A7CF5BD009921F4 /* Cocoa.framework */; };
+		DA302A721A7CF5C7009921F4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA302A711A7CF5C7009921F4 /* Carbon.framework */; };
+		DA302A751A7CF6D1009921F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA302A741A7CF6D1009921F4 /* main.swift */; };
+		DA302A7B1A7D2BCC009921F4 /* SpoofingTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA302A7A1A7D2BCC009921F4 /* SpoofingTabViewController.swift */; };
+		DA740F991A7A7D6E003DD42F /* AKHotKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA740F981A7A7D6E003DD42F /* AKHotKeyManager.m */; };
+		DA740F9F1A7A8391003DD42F /* KeyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA740F9E1A7A8391003DD42F /* KeyMap.swift */; };
+		DA740FA11A7A83AA003DD42F /* KeyBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA740FA01A7A83AA003DD42F /* KeyBinding.swift */; };
+		DA740FA31A7A85C4003DD42F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA740FA21A7A85C4003DD42F /* Constants.swift */; };
+		DACF48E51ACAC402000B080D /* PreferenceWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF48E41ACAC402000B080D /* PreferenceWindowController.swift */; };
+		DACF48E71ACAC42F000B080D /* EditTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF48E61ACAC42F000B080D /* EditTextField.swift */; };
+		DAD51EE61A87944A000CBF58 /* AkamToolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD51EE51A87944A000CBF58 /* AkamToolManager.swift */; };
+		DAD51EE81A8796D9000CBF58 /* SpoofingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD51EE71A8796D9000CBF58 /* SpoofingManager.swift */; };
+		DAD51EEA1A879D88000CBF58 /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD51EE91A879D88000CBF58 /* STPrivilegedTask.m */; };
+		DAE21EAB1A7A774A004826E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE21EAA1A7A774A004826E6 /* AppDelegate.swift */; };
+		DAE21EBC1A7A774B004826E6 /* AkamToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE21EBB1A7A774B004826E6 /* AkamToolTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE21EB61A7A774B004826E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE21E9D1A7A774A004826E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE21EA41A7A774A004826E6;
+			remoteInfo = AkamTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA302A681A7CEA39009921F4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DA302A671A7CEA39009921F4 /* Snappy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		772ACD396925B82B69B26DD1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B90D1712927311378836C2FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAB7673DBD7632B0A92A14D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DA302A561A7CDF05009921F4 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentViewController.swift; path = Controllers/ContentViewController.swift; sourceTree = "<group>"; };
+		DA302A5B1A7CDF97009921F4 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Label.swift; path = Controls/Label.swift; sourceTree = "<group>"; };
+		DA302A5D1A7CDFC0009921F4 /* LabelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelButton.swift; path = Controls/LabelButton.swift; sourceTree = "<group>"; };
+		DA302A601A7CE232009921F4 /* Snappy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Snappy.framework; path = Snappy/Snappy.framework; sourceTree = "<group>"; };
+		DA302A631A7CE45A009921F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = "<group>"; };
+		DA302A6B1A7CF535009921F4 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WindowController.swift; path = Controllers/WindowController.swift; sourceTree = "<group>"; };
+		DA302A6D1A7CF5B1009921F4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DA302A6F1A7CF5BD009921F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DA302A711A7CF5C7009921F4 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		DA302A741A7CF6D1009921F4 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DA302A7A1A7D2BCC009921F4 /* SpoofingTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpoofingTabViewController.swift; path = Controllers/SpoofingTabViewController.swift; sourceTree = "<group>"; };
+		DA740F971A7A7D6E003DD42F /* AkamTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AkamTool-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA740F981A7A7D6E003DD42F /* AKHotKeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AKHotKeyManager.m; path = Managers/AKHotKeyManager.m; sourceTree = "<group>"; };
+		DA740F9A1A7A7D82003DD42F /* AKHotKeyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AKHotKeyManager.h; path = Managers/AKHotKeyManager.h; sourceTree = "<group>"; };
+		DA740F9E1A7A8391003DD42F /* KeyMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyMap.swift; path = Models/KeyMap.swift; sourceTree = "<group>"; };
+		DA740FA01A7A83AA003DD42F /* KeyBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyBinding.swift; path = Models/KeyBinding.swift; sourceTree = "<group>"; };
+		DA740FA21A7A85C4003DD42F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DACF48E41ACAC402000B080D /* PreferenceWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreferenceWindowController.swift; path = Controllers/PreferenceWindowController.swift; sourceTree = "<group>"; };
+		DACF48E61ACAC42F000B080D /* EditTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditTextField.swift; path = Controls/EditTextField.swift; sourceTree = "<group>"; };
+		DAD51EE51A87944A000CBF58 /* AkamToolManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AkamToolManager.swift; path = Managers/AkamToolManager.swift; sourceTree = "<group>"; };
+		DAD51EE71A8796D9000CBF58 /* SpoofingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpoofingManager.swift; path = Managers/SpoofingManager.swift; sourceTree = "<group>"; };
+		DAD51EE91A879D88000CBF58 /* STPrivilegedTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STPrivilegedTask.m; path = Managers/STPrivilegedTask.m; sourceTree = "<group>"; };
+		DAD51EEB1A879DC7000CBF58 /* STPrivilegedTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = STPrivilegedTask.h; path = Managers/STPrivilegedTask.h; sourceTree = "<group>"; };
+		DAE21EA51A7A774A004826E6 /* AkamTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkamTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE21EA91A7A774A004826E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE21EAA1A7A774A004826E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAE21EB51A7A774B004826E6 /* AkamToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkamToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE21EBA1A7A774B004826E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE21EBB1A7A774B004826E6 /* AkamToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkamToolTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE21EA21A7A774A004826E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA302A721A7CF5C7009921F4 /* Carbon.framework in Frameworks */,
+				DA302A701A7CF5BD009921F4 /* Cocoa.framework in Frameworks */,
+				DA302A6E1A7CF5B1009921F4 /* AppKit.framework in Frameworks */,
+				A8F146F8D165F91D2A72098E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE21EB21A7A774B004826E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		905BB4CDFFF66791AA79E4EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				772ACD396925B82B69B26DD1 /* Pods.debug.xcconfig */,
+				CCAB7673DBD7632B0A92A14D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA302A551A7CDEA9009921F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA302A561A7CDF05009921F4 /* ContentViewController.swift */,
+				DA302A7A1A7D2BCC009921F4 /* SpoofingTabViewController.swift */,
+				DA302A6B1A7CF535009921F4 /* WindowController.swift */,
+				DACF48E41ACAC402000B080D /* PreferenceWindowController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DA302A581A7CDF44009921F4 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				DA302A5B1A7CDF97009921F4 /* Label.swift */,
+				DA302A5D1A7CDFC0009921F4 /* LabelButton.swift */,
+				DACF48E61ACAC42F000B080D /* EditTextField.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		DA302A5F1A7CE1BC009921F4 /* Snappy */ = {
+			isa = PBXGroup;
+			children = (
+				DA302A601A7CE232009921F4 /* Snappy.framework */,
+			);
+			name = Snappy;
+			sourceTree = "<group>";
+		};
+		DA302A621A7CE3E3009921F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA302A631A7CE45A009921F4 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DA302A731A7CF5E0009921F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA302A711A7CF5C7009921F4 /* Carbon.framework */,
+				DA302A6F1A7CF5BD009921F4 /* Cocoa.framework */,
+				DA302A6D1A7CF5B1009921F4 /* AppKit.framework */,
+				B90D1712927311378836C2FF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA740F961A7A7D45003DD42F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DAD51EE51A87944A000CBF58 /* AkamToolManager.swift */,
+				DAD51EE71A8796D9000CBF58 /* SpoofingManager.swift */,
+				DA740F981A7A7D6E003DD42F /* AKHotKeyManager.m */,
+				DA740F9A1A7A7D82003DD42F /* AKHotKeyManager.h */,
+				DAD51EE91A879D88000CBF58 /* STPrivilegedTask.m */,
+				DAD51EEB1A879DC7000CBF58 /* STPrivilegedTask.h */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		DA740F9D1A7A837B003DD42F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA740F9E1A7A8391003DD42F /* KeyMap.swift */,
+				DA740FA01A7A83AA003DD42F /* KeyBinding.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DAE21E9C1A7A774A004826E6 = {
+			isa = PBXGroup;
+			children = (
+				DAE21EA71A7A774A004826E6 /* AkamTool */,
+				DA302A731A7CF5E0009921F4 /* Frameworks */,
+				DA302A621A7CE3E3009921F4 /* Resources */,
+				DAE21EB81A7A774B004826E6 /* AkamToolTests */,
+				DAE21EA61A7A774A004826E6 /* Products */,
+				905BB4CDFFF66791AA79E4EE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE21EA61A7A774A004826E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE21EA51A7A774A004826E6 /* AkamTool.app */,
+				DAE21EB51A7A774B004826E6 /* AkamToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE21EA71A7A774A004826E6 /* AkamTool */ = {
+			isa = PBXGroup;
+			children = (
+				DA740FA21A7A85C4003DD42F /* Constants.swift */,
+				DAE21EAA1A7A774A004826E6 /* AppDelegate.swift */,
+				DA740F9D1A7A837B003DD42F /* Models */,
+				DA740F961A7A7D45003DD42F /* Managers */,
+				DA302A581A7CDF44009921F4 /* Controls */,
+				DA302A551A7CDEA9009921F4 /* Controllers */,
+				DA302A5F1A7CE1BC009921F4 /* Snappy */,
+				DAE21EA81A7A774A004826E6 /* Supporting Files */,
+			);
+			path = AkamTool;
+			sourceTree = "<group>";
+		};
+		DAE21EA81A7A774A004826E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA302A741A7CF6D1009921F4 /* main.swift */,
+				DA740F971A7A7D6E003DD42F /* AkamTool-Bridging-Header.h */,
+				DAE21EA91A7A774A004826E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAE21EB81A7A774B004826E6 /* AkamToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE21EBB1A7A774B004826E6 /* AkamToolTests.swift */,
+				DAE21EB91A7A774B004826E6 /* Supporting Files */,
+			);
+			path = AkamToolTests;
+			sourceTree = "<group>";
+		};
+		DAE21EB91A7A774B004826E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE21EBA1A7A774B004826E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE21EA41A7A774A004826E6 /* AkamTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE21EBF1A7A774B004826E6 /* Build configuration list for PBXNativeTarget "AkamTool" */;
+			buildPhases = (
+				FAF0EE599B6B52B8EBD9ABEA /* Check Pods Manifest.lock */,
+				DAE21EA11A7A774A004826E6 /* Sources */,
+				DAE21EA21A7A774A004826E6 /* Frameworks */,
+				DAE21EA31A7A774A004826E6 /* Resources */,
+				DA302A681A7CEA39009921F4 /* Embed Frameworks */,
+				732E231DE1970620B3B176DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AkamTool;
+			productName = AkamTool;
+			productReference = DAE21EA51A7A774A004826E6 /* AkamTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE21EB41A7A774B004826E6 /* AkamToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE21EC21A7A774B004826E6 /* Build configuration list for PBXNativeTarget "AkamToolTests" */;
+			buildPhases = (
+				DAE21EB11A7A774B004826E6 /* Sources */,
+				DAE21EB21A7A774B004826E6 /* Frameworks */,
+				DAE21EB31A7A774B004826E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE21EB71A7A774B004826E6 /* PBXTargetDependency */,
+			);
+			name = AkamToolTests;
+			productName = AkamToolTests;
+			productReference = DAE21EB51A7A774B004826E6 /* AkamToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE21E9D1A7A774A004826E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Astin;
+				TargetAttributes = {
+					DAE21EA41A7A774A004826E6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DAE21EB41A7A774B004826E6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DAE21EA41A7A774A004826E6;
+					};
+				};
+			};
+			buildConfigurationList = DAE21EA01A7A774A004826E6 /* Build configuration list for PBXProject "AkamTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE21E9C1A7A774A004826E6;
+			productRefGroup = DAE21EA61A7A774A004826E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE21EA41A7A774A004826E6 /* AkamTool */,
+				DAE21EB41A7A774B004826E6 /* AkamToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE21EA31A7A774A004826E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA302A641A7CE45A009921F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE21EB31A7A774B004826E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		732E231DE1970620B3B176DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF0EE599B6B52B8EBD9ABEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE21EA11A7A774A004826E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA740FA11A7A83AA003DD42F /* KeyBinding.swift in Sources */,
+				DA302A6C1A7CF535009921F4 /* WindowController.swift in Sources */,
+				DAD51EE81A8796D9000CBF58 /* SpoofingManager.swift in Sources */,
+				DAE21EAB1A7A774A004826E6 /* AppDelegate.swift in Sources */,
+				DA740F9F1A7A8391003DD42F /* KeyMap.swift in Sources */,
+				DA302A7B1A7D2BCC009921F4 /* SpoofingTabViewController.swift in Sources */,
+				DA302A5E1A7CDFC0009921F4 /* LabelButton.swift in Sources */,
+				DA740F991A7A7D6E003DD42F /* AKHotKeyManager.m in Sources */,
+				DA302A751A7CF6D1009921F4 /* main.swift in Sources */,
+				DA740FA31A7A85C4003DD42F /* Constants.swift in Sources */,
+				DAD51EE61A87944A000CBF58 /* AkamToolManager.swift in Sources */,
+				DACF48E51ACAC402000B080D /* PreferenceWindowController.swift in Sources */,
+				DA302A5C1A7CDF97009921F4 /* Label.swift in Sources */,
+				DACF48E71ACAC42F000B080D /* EditTextField.swift in Sources */,
+				DAD51EEA1A879D88000CBF58 /* STPrivilegedTask.m in Sources */,
+				DA302A571A7CDF05009921F4 /* ContentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE21EB11A7A774B004826E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE21EBC1A7A774B004826E6 /* AkamToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE21EB71A7A774B004826E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE21EA41A7A774A004826E6 /* AkamTool */;
+			targetProxy = DAE21EB61A7A774B004826E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAE21EBD1A7A774B004826E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAE21EBE1A7A774B004826E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DAE21EC01A7A774B004826E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772ACD396925B82B69B26DD1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AkamTool/Snappy",
+				);
+				INFOPLIST_FILE = AkamTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AkamTool/AkamTool-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAE21EC11A7A774B004826E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCAB7673DBD7632B0A92A14D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AkamTool/Snappy",
+				);
+				INFOPLIST_FILE = AkamTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AkamTool/AkamTool-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DAE21EC31A7A774B004826E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AkamToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkamTool.app/Contents/MacOS/AkamTool";
+			};
+			name = Debug;
+		};
+		DAE21EC41A7A774B004826E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AkamToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkamTool.app/Contents/MacOS/AkamTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE21EA01A7A774A004826E6 /* Build configuration list for PBXProject "AkamTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE21EBD1A7A774B004826E6 /* Debug */,
+				DAE21EBE1A7A774B004826E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE21EBF1A7A774B004826E6 /* Build configuration list for PBXNativeTarget "AkamTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE21EC01A7A774B004826E6 /* Debug */,
+				DAE21EC11A7A774B004826E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE21EC21A7A774B004826E6 /* Build configuration list for PBXNativeTarget "AkamToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE21EC31A7A774B004826E6 /* Debug */,
+				DAE21EC41A7A774B004826E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAE21E9D1A7A774A004826E6 /* Project object */;
+}
